@@ -1,7 +1,7 @@
 const inputdata=document.querySelector('.inputbox input');
 const outprint=document.querySelector('.unorderlist');
 function additems(){
-  if( inputdata.value === ''){
+  if( inputdata.value.trim() === ''){
     alert('Please Enter the some data ');
   }else{
     let li=document.createElement('li');
